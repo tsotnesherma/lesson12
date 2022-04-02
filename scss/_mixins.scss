@@ -1,0 +1,22 @@
+@mixin Flex-nav {
+    
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+@mixin logo-structure {
+                cursor: pointer;
+                margin: 30px 0;
+                width: 70px;
+                height: 70px;
+}
+@mixin container-2-structure {
+    background-image: url(../images/image.png);
+       background-size: cover;
+       height: 500px;
+        display: flex;
+       justify-content:center ;
+     align-items: center;
+     text-align: center;
+}
